@@ -53,21 +53,21 @@ while True:
             print(i)
     elif choice == 2:
 
-        fn = input('Enter the First_Name of the Student : ');
-        ln = input('Enter the Last_Name of the Student : ');
-        rollno = input('Enter the Rollno of the Student : ' );
-        fasn = input("Enter the Father's name of the Student : ");
-        ad = input('Enter your home address : ');
-        dob = input('Enter your DOB in ( dd-mon-year ) : ');
+        fn = input('First_Name of the Student : ');
+        ln = input('Last_Name of the Student : ');
+        rollno = input('Rollno of the Student : ' );
+        fasn = input("Father's name of the Student : ");
+        ad = input('Your Home address : ');
+        dob = input('DOB in ( dd-mon-year ) : ');
         c = int(input('Enter the course id of which the student is studying : '))
         rno = int(input('Enter the Room_no of which the student is willing to go : '))
-        bg = input('Enter the Blood Group of the Student : ')
-        mail = input('Enter the Email_ID of the Student : ')
-        spn = input('Enter the Phone Number of the Student : ')
-        p = input('Enter the Phone Number of the Parent : ')
-        pa = float(input('Enter the Annual Income of the Parent : '))
-        city = input('Enter the City of the Student : ')
-        st = input('Enter the State of the Student : ')
+        bg = input('Blood Group of the Student : ')
+        mail = input('Email_ID of the Student : ')
+        spn = input('Student Phone Number : ')
+        p = input('Parent Phone Number : ')
+        pa = float(input('Parent Annual Income : '))
+        city = input('City of the Student : ')
+        st = input('State of the Student : ')
         pn = int(input('Enter the Pin-Code of the Student : '))
         y = int(input('Enter the Year of Gradation of the Student : '))
         py = int(input('Enter the Present Year : '))
